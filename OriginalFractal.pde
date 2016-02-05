@@ -1,9 +1,9 @@
 int size = 500;
 public void setup()
 {
-	size(700, 700);
+	size(600, 600);
 	background(255);
-	circlinski(350, 350, size);
+	circlinski(300, 300, size);
 }
 
 public void draw()
@@ -29,5 +29,5 @@ public void circlinski(int x, int y, int w)
 public void mousePressed()
 {
 	background(255);
-	circlinski(350, 350, size);
+	circlinski(300, 300, size);
 }
